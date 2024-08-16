@@ -153,9 +153,47 @@ li{
     height: 100%;
 }
 
+/* responsiveness starts here */
+
+@media screen and (max-width:576px){
+
+   /* shared style */
+    .full-container{
+        max-width: 576px;
+        margin: 0 auto;
+        border: 2px solid green;
+    }
+
+/* header section styles */
+/* navbar */
+.header-section{
+    height: 280px;
+}
+.navbar{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    padding: 30px 20px;
+}
+.nav-right{
+    flex-direction: column;
+}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 
 
